@@ -1,0 +1,52 @@
+Manfred
+
+| TYK |    11 |    13 |    15 |    17 |
+|     | Chips | Chips | Chips | Chips |
+|     |  6.00 |  6.00 |  6.00 |  6.00 |
+
+| TYK |    21 |    23 |      25 |      27 |
+|     | Chips | Chips | Popcorn | Popcorn |
+|     |  6.00 |  6.00 |    5.00 |    5.00 |
+
+| TYND |    30 |    31 |       32 |       33 |       34 |       35 |       36 |           37 |
+|      | M&M's | M&M's | Skittles | Skittles | Knoppers | Knoppers | Knoppers | Lakridspiber |
+|      | 11.00 | 11.00 |    13.00 |    13.00 |     4.50 |     4.50 |     4.50 |         4.00 |
+
+| TYK |           40 |           41 |           42 |           43 |           44 |           45 |           46 |           47 |
+|     | Ritter Sport | Ritter Sport | Ritter Sport | Ritter Sport | Ritter Sport | Ritter Sport | Ritter Sport | Ritter Sport |
+|     |        15.00 |        15.00 |        15.00 |        15.00 |        15.00 |        15.00 |        15.00 |        15.00 |
+
+| TYK |     51 |     53 |     55 |     57 |
+|     | Gifler | Gifler | Gifler | Gifler |
+|     |  20.00 |  20.00 |  20.00 |  20.00 |
+
+| TYK |    60 |    61 |       62 |       63 |          64 |          65 |             66 |            67 |
+|     | Juice | Juice | Søbogård | Søbogård | Cocio 25 cL | Cocio 25 cL | Red Bull 25 cL | Booster 25 cL |
+|     | 13.00 | 13.00 |     9.00 |     9.00 |        9.00 |        9.00 |          14.00 |         14.00 |
+
+
+Heino
+
+| TYND |              11 |              13 |              15 |              17 |              19 |
+|      | Haribo vingummi | Haribo vingummi | Haribo vingummi | Haribo vingummi | Haribo vingummi |
+|      |           10.00 |           10.00 |           10.00 |           10.00 | 10.00           |
+
+| TYND |         21 |         23 |         25 |                   27 |                   29 |
+|      | Beef Jerky | Beef Jerky | Beef Jerky | Stor Haribo vingummi | Stor Haribo vingummi |
+|      |      18.00 |      18.00 |      18.00 |                20.00 |                20.00 |
+
+| TYND |              31 |              33 |              35 |              37 |              39 |
+|      | Haribo vingummi | Haribo vingummi | Haribo vingummi | Haribo vingummi | Haribo vingummi |
+|      |           10.00 |           10.00 |           10.00 |           10.00 |           10.00 |
+
+| TYND |         40 |         41 |     42 |     43 |       44 |       45 |    46 |        47 |    48 |             49 |
+|      | Sagio-kort | Sagio-kort | Bounty | Bounty | Snickers | Snickers |  Mars | I STYKKER |  Mars | Dumle-slikpind |
+|      |       0.00 |       0.00 |   7.00 |   7.00 |    11.00 |    11.00 | 11.00 |           | 11.00 |           3.00 |
+
+| TYND |    50 |    51 |   52 |   53 |       54 |        55 |        56 |           57 |     58 |      59 |
+|      |  Twix |  Twix | Daim | Daim | Lion Bar | GO nødder | GO nødder | Gammel Dansk | Fernet | Dooleys |
+|      | 11.00 | 11.00 | 7.00 | 7.00 |     8.50 |      9.50 |      9.50 |        12.50 |  10.00 |    7.50 |
+
+| TYK |     70 |     71 |     72 |     73 |     74 |        75 |        76 |        77 |        78 |        89 |
+|     | Nudler | Nudler | Nudler | Nudler | Nudler | Chokokiks | Chokokiks | I STYKKER | Chokokiks | Chokokiks |
+|     |   4.00 |   4.00 |   4.00 |   4.00 |   4.00 |      7.50 |      7.50 |           |      7.50 |      7.50 |
