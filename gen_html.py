@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 
+import sys
 import os.path
 
 
 TYK, TYND = 'TYK', 'TYND'
+
+if len(sys.argv) > 1:
+    gen_raw = True
+else:
+    gen_raw = False
 
 def parse_row_line(s):
     return list(map(lambda s: s.strip(), s.strip('|').split('|')))
@@ -30,8 +36,16 @@ def parse_machine(s):
 def format_machine(t):
     html = ''
     name, rows = t
-    html += '<h2>{}</h2>\n'.format(name)
-    html += '<table>\n'
+    if gen_raw:
+        html += '<h2>{}</h2>\n'.format(name)
+    else:
+        html += '===== {} =====\n\n'.format(name)
+    if not gen_raw:
+        html += '<HTML>\n'
+    if gen_raw:
+        html += '<table>\n'
+    else:
+        html += '<table style="font-size: 80%;">\n'
     for row in rows:
         row_type, row_lines = row
         if row_type == TYK:
@@ -42,14 +56,18 @@ def format_machine(t):
         for cell_index in range(len(row_lines[0])):
             pladsnummer = row_lines[0][cell_index]
             vare = row_lines[1][cell_index]
-            pris = row_lines[2][cell_index]
+            pris = str(row_lines[2][cell_index])
+            if pris:
+                pris = ', ' + pris + ' kr.'
             if len(row_lines[0]) <= 5:
                 extra = ' colspan="2"'
             else:
                 extra = ''
-            html += '<td{}>{}: {}, {} kr.</td>\n'.format(extra, pladsnummer, vare, pris)
+            html += '<td{}>{}: {}{}</td>\n'.format(extra, pladsnummer, vare, pris)
         html += '</tr>\n'
     html += '</table>\n'
+    if not gen_raw:
+        html += '</HTML>\n'
     return html
 
 bdir = os.path.dirname(__file__)
@@ -59,11 +77,16 @@ with open(os.path.join(bdir, 'indhold.txt')) as f:
 
 machines = map(format_machine, map(parse_machine, content.split('\n\n\n')))
 
-body = '\n'.join(machines)
-    
-with open(os.path.join(bdir, 'skabelon.html')) as f:
+body = '\n\n'.join(machines)
+
+if gen_raw:
+    template_filename = 'skabelon.html'
+else:
+    template_filename = 'skabelon.txt'
+
+with open(os.path.join(bdir, template_filename)) as f:
     template = f.read()
     
-html = template.replace('{krop}', body)
+html = template.replace('{krop}', body).rstrip()
 
 print(html)

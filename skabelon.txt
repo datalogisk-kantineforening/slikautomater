@@ -1,0 +1,6 @@
+====== Struktur af slikautomater ======
+
+Fed skrift betyder at det er en række med dybe pladser, modsat rækkerne med tynde pladser.
+
+
+{krop}
